@@ -1,0 +1,35 @@
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.body-foto {
+  width: 100%;
+  display: flex;
+  margin: 1.2rem auto;
+}
+/* Gaya untuk informasi foto */
+.photo-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  display: none;
+}
+.photo-info {
+  display: block;
+}
+#photosContainer {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap; /* Untuk membuat elemen-elemen dalam container wrap ke baris baru jika melebihi lebar container */
+  justify-content: space-around; /* Untuk mendistribusikan ruang di antara elemen-elemen di sepanjang kontainer */
+  align-items: flex-start; /* Untuk menyusun elemen-elemen ke bagian atas container */
+}
+.photo {
+  margin: 5px; /* Jarak antara setiap foto */
+}
+.icons {
+  font-size: 1.6rem;
+  color: #198754;
+}
+.photo-info p {
+  font-size: 78%;
+}
